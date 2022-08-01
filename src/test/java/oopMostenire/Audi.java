@@ -18,6 +18,10 @@ public class Audi extends Masina {
 
 
     }
+    public void folosireVolan(){
+        System.out.println("Volanul lui Audi este super");
+        super.folosireVolan(); //indreapta cu degetul in metodele din clasa parintelui
+    }
     public void pretStandard(){
         System.out.println("Pretul standard al masinii "+ getMarca() +" "+ getModel() + " este: " + pret);
     }
@@ -89,5 +93,26 @@ public class Audi extends Masina {
 
     public void setDotariInterioare(List<String> dotariInterioare) {
         this.dotariInterioare = dotariInterioare;
+    }
+
+    //polimorfism static
+    public void numarPasageri(Integer numar){
+        System.out.println(numar);
+    }
+    public void numarPasageri(String numar){
+        System.out.println(numar);
+
+    }
+    public void numarPasageri(Integer numar, Integer numarAnimale){
+        System.out.println(numar);
+
+    }
+    public Integer proba(Integer numar){
+        return 1;
+
+    }
+    public Integer proba(){
+        return 1;
+
     }
 }

@@ -2,6 +2,10 @@ package oopMostenire;
 
 public class Masina {
     //Mostenire: In java se poate mosteni o singura clasa
+    //Polimorfism e de 2 feluri: static(overload) si dinamic(override)
+    //Dinamic = Intr-o ierarhie de clase o metoda poate avea implementari diferite
+    //Static = Putem avea mai multe metode cu acelasi nume care sa se diferentieze prin numarul sau tipul de parametrii
+
     private String Marca;
     private String Model;
     private Integer nrRoti;
@@ -21,6 +25,11 @@ public class Masina {
         System.out.println("Numarul rotilor este: " + nrRoti);
         System.out.println("Transmisia este de tip: " + Transmisie);
         System.out.println("Motorul are capacitatea de: " + Motor);
+    }
+
+    //Polimorfism dinamic
+    public void folosireVolan(){
+        System.out.println("Volanul masinii se conduce foarte bine");
     }
 
     public String getMarca() {

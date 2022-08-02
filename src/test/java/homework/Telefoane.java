@@ -26,23 +26,23 @@ public class Telefoane {
         switch(brandTelefon)
         {
             case "Samsung":
-                System.out.println("Noul pret este: " + getReducereTelefoane(3500.99,15.0) + " S10+");
-                System.out.println("Noul pret este: " + getReducereTelefoane(4780.99,15.0) + " Note22");
-                System.out.println("Noul pret este: " + getReducereTelefoane(6850.99,15.0) + " S22Fe");
+                System.out.println("Noul pret al telefonului S10 este: " + getReducereTelefoane(3600.00,15.0));
+                System.out.println("Noul pret al telefonului Note22 este: " + getReducereTelefoane(5000.00,15.0));
+                System.out.println("Noul pret al telefonului S10e este: " + getReducereTelefoane(7050.50,15.0));
                 break;
             case "Huawei":
-                System.out.println("Noul pret este: " + getReducereTelefoane(1299.99,30.0) + " Nova 9");
-                System.out.println("Noul pret este: " + getReducereTelefoane(999.00,30.0) + " Nova i8");
-                System.out.println("Noul pret este: " + getReducereTelefoane(3500.99, 30.0) + " P50 Pro");
-                System.out.println("Noul pret este: " + getReducereTelefoane(9999.99, 30.0) + " Mate XS");
-                System.out.println("Noul pret este: " + getReducereTelefoane(2567.80, 30.0) + " P30");
+                System.out.println("Noul pret al telefonului Nova 9 este: " + getReducereTelefoane(1499.10,30.0));
+                System.out.println("Noul pret al telefonului P20 este: " + getReducereTelefoane(1199.90,30.0));
+                System.out.println("Noul pret al telefonului P50 este: " + getReducereTelefoane(3100.30, 30.0));
+                System.out.println("Noul pret al telefonului Honor 3X este: " + getReducereTelefoane(2050.50, 30.0));
+                System.out.println("Noul pret al telefonului P30 este: " + getReducereTelefoane(2001.00, 30.0));
                 break;
             case "Apple":
-                System.out.println("Noul pret este: " + getReducereTelefoane(7599.99,5.0) + " Ultra Max Pro 13" );
+                System.out.println("Noul pret al telefonului 13 Max Pro este: " + getReducereTelefoane(6500.00,5.0));
                 break;
             case "Nokia":
-                System.out.println("Noul pret este: " + getScumpireNokia(772.62) + " G21");
-                System.out.println("Noul pret este: " + getScumpireNokia(1249.99) + " X20");
+                System.out.println("Noul pret al telefonului G21 este: " + getScumpireNokia(869.99));
+                System.out.println("Noul pret al telefonului X20 este: " + getScumpireNokia(1550.00));
                 break;
             default: faraReducere();
         }

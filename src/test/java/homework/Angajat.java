@@ -5,12 +5,10 @@ import java.util.List;
 public class Angajat extends Persoana{
     private Integer salariu;
     private String numeFirma;
-    private List<String> tip;
-    public Angajat(String nume,String prenume, String adresa,Integer varsta, Integer salariu, String numeFirma, List<String> tip){
-        super(nume, prenume, varsta, adresa);
+    public Angajat(String nume, String prenume, String adresa, Integer varsta, Integer gen, Integer salariu, String numeFirma){
+        super(nume, prenume, varsta, adresa, gen);
         this.salariu = salariu;
         this.numeFirma = numeFirma;
-        this.tip = tip;
 
     }
     public void marireSalariu(){
@@ -24,19 +22,9 @@ public class Angajat extends Persoana{
         System.out.println("Vechimea lui este de " + vechime);
 
     }
-    public void adaugareTip() {
-        for (String tipJob : tip) {
-            if (tipJob == "IT") {
-                System.out.println("Angajatul este IT-ist");
-                break;
-            }
-            if(tipJob == "Doctor"){
-                System.out.println("Angajatul este doctor");
-                break;
-            }
-        }
+    public void numeleFirmei(){
+        System.out.println("Angajatul " + getNume() + " " + getPrenume() + " lucreaza la firma " + numeFirma);
     }
-
     public Integer getSalariu() {
         return salariu;
     }

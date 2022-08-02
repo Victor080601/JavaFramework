@@ -16,4 +16,5 @@ public class PersoanaAngajat extends PersoanaInterface implements InterfaceAngaj
     public void primesteSalariu() {
         System.out.println("Angajatul " + getNume() + " " + getPrenume() + " primeste 1500 lei");
     }
+
 }

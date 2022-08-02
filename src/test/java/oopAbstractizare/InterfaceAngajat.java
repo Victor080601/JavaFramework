@@ -13,4 +13,6 @@ public interface InterfaceAngajat {
 
     void munceste();
     void primesteSalariu();
+    
+    public String proba = "";
 }

@@ -1,5 +1,7 @@
 package oopAbstractizare;
 
+import org.junit.Test;
+
 public class PersoanaInterface {
     //Abstractizare = conceptul pe baza caruia definim comportamentul unei clase
     //Abstractizarea se poate face folosind interfete sau clase abstracte
@@ -36,4 +38,5 @@ public class PersoanaInterface {
     public void setVarsta(String varsta) {
         this.varsta = varsta;
     }
+
 }

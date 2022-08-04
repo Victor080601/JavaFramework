@@ -1,5 +1,8 @@
 package oopAbstractizare;
 
+import homework.Method;
+import org.junit.Test;
+
 public class PersoanaStudent extends PersoanaInterface implements InterfaceStudent{
 
     public PersoanaStudent(String nume, String prenume, String varsta) {
@@ -16,5 +19,10 @@ public class PersoanaStudent extends PersoanaInterface implements InterfaceStude
     public void bursa() {
         System.out.println("Studentul " + getNume() + " " + getPrenume() + " ia 800 lei bursa");
 
+    }
+    public static void main(String args[]){
+        PersoanaStudent obj = new PersoanaStudent("Oprea","Victor","21");
+        obj.bursa();
+        obj.practica();
     }
 }

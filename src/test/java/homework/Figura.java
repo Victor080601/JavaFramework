@@ -6,7 +6,6 @@ public class Figura implements FiguraInterface {
 
         public Figura(double height, double width)
         {
-            super();
             this.height = height;
             this.width = width;
         }
@@ -20,14 +19,6 @@ public class Figura implements FiguraInterface {
         {
             return width;
         }
-
-    public void setHeight(double height) {
-        this.height = height;
-    }
-
-    public void setWidth(double width) {
-        this.width = width;
-    }
     public double getArea(){
             return 0;
     }

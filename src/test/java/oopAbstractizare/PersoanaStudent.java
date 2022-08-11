@@ -20,9 +20,4 @@ public class PersoanaStudent extends PersoanaInterface implements InterfaceStude
         System.out.println("Studentul " + getNume() + " " + getPrenume() + " ia 800 lei bursa");
 
     }
-    public static void main(String args[]){
-        PersoanaStudent obj = new PersoanaStudent("Oprea","Victor","21");
-        obj.bursa();
-        obj.practica();
-    }
 }
